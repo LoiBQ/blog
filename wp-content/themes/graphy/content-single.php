@@ -28,7 +28,6 @@
 		</div>
 		<?php endif; // End if $the_tags ?>
 
-		<?php graphy_author_profile(); ?>
 
 	</article><!-- #post-## -->
 </div><!-- .post-full -->
