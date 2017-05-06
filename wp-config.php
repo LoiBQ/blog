@@ -89,3 +89,18 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+//ftp define
+define('FTP_BASE', '/');
+
+define('FTP_CONTENT_DIR', '/wp-content/');
+define('FTP_PLUGIN_DIR', '/wp-content/plugins/');
+define('FTP_USER', 'ftpuser');
+define('FTP_PASS', '123456');
+define('FTP_HOST', 'beallyoucanbe.info');
+
+define('FTP_SSL', false);
+
+define("FS_METHOD", "direct");
+define("FS_CHMOD_DIR", 0777);
+define("FS_CHMOD_FILE", 0777);
